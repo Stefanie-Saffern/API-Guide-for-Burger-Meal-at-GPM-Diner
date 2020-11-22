@@ -5,16 +5,16 @@ The General Putnam Motel Diner API allows you to order a burger meal special for
 
 
 ## Workflow
-This introduces the diagram.  
+This workflow diagram is a flowchart that shows how Burger Meal order is processed on the GPMD API. Each part of the diagram visualizes possible choices of the burger meal and its following steps based on its preceeding choice. 
 
 ![Workflow Diagram](Workflow.Final.PNG)
 
 
 
 
-* [For more information about GPMD API Authentication, see this description](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/authentication)  
-* [For more information about GET Request, see this Reference Guide](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/GET%20Request)  
-* [For more information about POST Request, see this Reference Guide](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/POST)  
+* [Authentication](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/authentication) &mdash; reference for GPMD API Authentication. 
+* [GET Request](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/GET%20Request) &mdash; reference for GPMD GET Requests. 
+* [POST Request](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/POST) &mdash; reference for GPMD POST Requests. 
 
 
 
