@@ -1,3 +1,10 @@
+# Endpoint GET/Lunch/burgerMeal  
+The GET gives the customer to access the burger meal section of the online menu for the General Putnam Motel Diner.    
+
+| Method | Syntax |
+| --- | --- |
+| GET | base_url://lunch/bugerMeal |
+
 ## GET Request Burgermeal
 
 Retrieves the meal that is available at the current time.  
@@ -39,18 +46,7 @@ curl -X GET "http://URL/tableNo?id=99"
 }
 ```
 
-### Endpoint GET/Lunch/burgerMeal
 
-The GET gives the customer to access the burger meal section of the online menu for the General Putnam Motel Diner.  
 
-| Method | Syntax |
-| --- | --- |
-| GET | base_url://lunch/bugerMeal |
 
-### Endpoint POST/MyOrder
-The Post sends the customers order, burger meal and its specifications, takeout status, and the time it is place to the cook at the General Putnam Motel Diner.  
-
-|  Method | Syntax |
-| --- | --- |
-| POST | base_URL://myorder/option/order#/table#/timestamp |
 
