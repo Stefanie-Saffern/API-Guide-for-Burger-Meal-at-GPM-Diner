@@ -1,9 +1,14 @@
+# Endpoint: POST/MyOrder
+The POST sends the customer's order, takeout status, and time it is placed to the cook.   
+
+| Method | Syntax|
+| ---| ---|
+| POST | base_URL://myorder/option/order#/table#/timestamp |
 
 
-
-> ## POST Order Burger Meal
-> ### POST/meal/lunch/burgermeal/Arguments (Query Parameter) 
->  
+## POST Order Burger Meal
+### POST/meal/lunch/burgermeal/Arguments (Query Parameter) 
+ 
 | Argument | Data Type  | Description | Required |
 | --- | --- | --- | --- |
 | main  | string | The main course for lunch is a burger meal. The hamburger can be an all-beef patty or veggie patty. The default value for the hamburger is an all-beef patty. | Yes |
@@ -24,13 +29,50 @@
 |drink_quantity | int | The default value is null. | No |
 
 ### Request Example (cURL)
-![](https://lh4.googleusercontent.com/Zw0g7YVD_rJTE08tIPweFASyrQrOzhrcPomG45ucu5xWiC52_Ix0ZR7yE-Ur3ykP1Ug57o32QgDZqbRozKWCFgHCb2qjQ2XBL6EETDuoeNRrNetjG23g2JIOAERa05npa5Bj8os)
+
+```JSON
+curl -H "Content-Type: application/json" -X POST -d'{
+   "mealType":"lunch",
+   "mealCat":{
+  	"main":"burgerMeal",
+  	"burger":{
+     	"pattyType":"”beef”",
+     	"pattyQty":1,
+     	"pattyWeightG":300,
+     	"pattyCook":"MR",
+     	"bunType":"wholeWheat",
+     	"condiment1":"ketchup",
+     	"condiment2":"secretSauce",
+     	"topping1":"lettuce",
+     	"topping2":"pickles",
+     	"topping3":"None",
+     	"topping4":"None"
+  	},
+  	"sides":{
+     	"side1":{
+        	"type":"frenchFries",
+        	"size":"large"
+     	},
+     	"side2":{
+        	"type":"none",
+        	"size":""
+     	}
+  	},
+  	"drink":{
+     	"type":"Coke",
+     	"size":"large",
+     	"ice":"yes"
+  	}
+   }
+}'
+http://URL/
+```
 
 ### POST Response Example
 
  ![](https://lh6.googleusercontent.com/lg4CSP8V6ZZB08WIpkIXw73NXNWMLoUWJEZG_imtidHrrr49KSYCLKzfvnSSHaRsPdMR-pSMRznkHirUoYFMxoS6-NsQvhYfXdNYqfSQAz4JVeiGqHw9m3DyOw0-MDod8XTw5Mk)
 
-[For additional Errors, see Error Codes](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/error%20codes )
+[Error Codes](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/error%20codes) &mdash; reference of additional error codes.
 
 ### Response Schema 
 | Argument | Data Type | Description |
