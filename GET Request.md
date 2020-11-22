@@ -1,8 +1,4 @@
-
-
-
-
-> ## GET Request Burgermeal
+## GET Request Burgermeal
 
 Retrieves the meal that is available at the current time.  
 
