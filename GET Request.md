@@ -18,7 +18,26 @@ There are no arguments.
 | customer_id | uuid | Each uuid will be made up of a unique combination of characters and numerals to identify the customer. This”shdi64826” is an example of the uuid. |
 
 ### Response Example 
-**![](https://lh3.googleusercontent.com/gLjo0AJRke9kKl2zCk9bjv-hMqxNr6WGDdUu6VJ2TU5ZcHiEnbm0Cbr5NtAY_iZ5TGeh5nyGZa4AMhGyG5zKAvASacjy2KjG82NADpE8FQrk4LbXrwuZFpJ9V6asoY_Me-2cXB8)
+```JSON
+curl -X GET "http://URL/tableNo?id=99"
+# response
+{
+   "orderNum":123,
+   "timestamp":"2020-01-21T07:44:45-05:00",
+   "Item1":{
+  	"ItemOrdered":{
+     	"type":"burgerMeal",
+     	"Cost":10.99
+  	 }
+   }
+   "Item2":{
+  	"ItemOrdered":{
+     	"type":"salad",
+     	"Cost":9.50
+  	}
+   }
+}
+```
 
 ### Endpoint GET/Lunch/burgerMeal
 
