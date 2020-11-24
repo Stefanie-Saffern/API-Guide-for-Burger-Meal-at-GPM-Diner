@@ -36,7 +36,7 @@ curl -X GET "http://URL/tableNo?id=99"
      	"type":"burgerMeal",
      	"Cost":10.99
   	 }
-   }
+   },
    "Item2":{
   	"ItemOrdered":{
      	"type":"salad",
