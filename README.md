@@ -15,8 +15,8 @@ Special thanks to Alex Fiedler who created the [original General Putnam Motel Di
 
 ## For additional information:  
 * [Authentication](authentication.md) &mdash; reference for GPMD API Authentication. 
-* [GET Request](GET_Request.md) &mdash; reference for GPMD GET Requests. 
-* [POST Request](POST_Request.md) &mdash; reference for GPMD POST Requests. 
+* [GET Request](get-request.md) &mdash; reference for GPMD GET Requests. 
+* [POST Request](post-request.md) &mdash; reference for GPMD POST Requests. 
 
 
 
