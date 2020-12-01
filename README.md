@@ -9,6 +9,8 @@ This workflow diagram is a flowchart that shows how Burger Meal order is process
 
 ![Workflow Diagram](Workflow.Final.PNG)
 
+## References  
+Special thanks to Alex Fiedler who created the [original General Putnam Motel Diner API Guide](https://www.linkedin.com/feed/update/urn:li:activity:6626465471241732096/) based on the movie, My Cousin Vinny.
 
 
 ## For additional information:  
