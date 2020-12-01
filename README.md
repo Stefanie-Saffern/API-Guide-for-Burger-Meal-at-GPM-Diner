@@ -14,9 +14,9 @@ Special thanks to Alex Fiedler who created the [original General Putnam Motel Di
 
 
 ## For additional information:  
-* [Authentication](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/authentication) &mdash; reference for GPMD API Authentication. 
-* [GET Request](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/GET%20Request) &mdash; reference for GPMD GET Requests. 
-* [POST Request](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/POST) &mdash; reference for GPMD POST Requests. 
+* [Authentication](authentication.md) &mdash; reference for GPMD API Authentication. 
+* [GET Request](GET Request.md) &mdash; reference for GPMD GET Requests. 
+* [POST Request](POST Request.md) &mdash; reference for GPMD POST Requests. 
 
 
 
