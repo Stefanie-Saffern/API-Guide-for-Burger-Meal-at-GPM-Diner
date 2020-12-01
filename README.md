@@ -11,7 +11,7 @@ This workflow diagram is a flowchart that shows how Burger Meal order is process
 
 
 
-### For additional information:  
+## For additional information:  
 * [Authentication](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/authentication) &mdash; reference for GPMD API Authentication. 
 * [GET Request](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/GET%20Request) &mdash; reference for GPMD GET Requests. 
 * [POST Request](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/POST) &mdash; reference for GPMD POST Requests. 
