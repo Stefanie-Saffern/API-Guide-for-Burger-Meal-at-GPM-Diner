@@ -14,7 +14,7 @@ The POST sends the customer's order, takeout status, and time it is placed to th
 | main  | string | The main course for lunch is a burger meal. The hamburger can be an all-beef patty or veggie patty. The default value for the hamburger is an all-beef patty. | Yes |
 | main_size | int | The size can be 150 grams or 300 grams. The 300 gram patty will cost an additional $4.| Yes |
 |hamburger_bun | string | The hamburger bun can be white bread bun or whole wheat bread bun. The default value is white bread bun.| Yes |
-| bun_quantity | int | The burger meal comes with only 1 bun and there is no option to receive a meal without a bun. The default value is 1.| No |
+| bun_quantity | int | The burger meal comes with only 1 bun and there is no option to receive a meal without a bun. The default value is 1.| Yes |
 | topping_1 | string | The toppings are tomatoes, lettuce, pickles, or onions. The default value for toppings is tomatoes and lettuce. Each additional topping is $1. If you don’t want toppings, the value is null and no more toppings will be offered. The price of the burger meal will remain the same. | No | 
 | topping_2 | string  | The toppings are tomatoes, lettuce, pickles, or onions. If you don’t want a topping 2, the value is null and no more toppings will be offered. | No
 | topping_3 | string  | The toppings are tomatoes, lettuce, pickles, or onions. If you don’t want a topping 3, the value is null and no more toppings will be offered. | No |
