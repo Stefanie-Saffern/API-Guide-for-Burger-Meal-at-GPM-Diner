@@ -24,8 +24,8 @@ The POST sends the customer's order, takeout status, and time it is placed to th
 |side_3 | string | The side can be french fries, onion rings, baked potato, or sweet potato fries. If you don’t want side 3, the value is null and no more sides will be offered.| No |
 |sidd_4 | string | The side can be french fries, onion rings, baked potato, or sweet potato fries. If you don’t want side 4, the value is null. | No |
 | sauces | string | The sauces are ketchup, BBQ sauce, mayo or chimichurri. There is no limit to the amount of condiments you can order. The default value is ketchup. If you don’t want any condiments, the value is null and no more sauce will be offered. | No|
-|sauces_quantity | int | There is no additional charge or limit to the amount or types of sauces. The default value is 1. |
-| drink | string | There is no additional charge or limit to the amount or types of condiments. The default value is 1.| No |
+|sauces_quantity | int | There is no additional charge or limit to the amount or types of sauces. The default value is 1. | No|
+| drink | string | You can order a can of soda for an additional $5. The choices are: Coke, Diet Coke, Sprite, or Diet Sprite.| No |
 |drink_quantity | int | The default value is null. | No |
 
 ### Request Example (cURL)
