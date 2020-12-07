@@ -26,7 +26,7 @@ The POST sends the customer's order, takeout status, and time it is placed to th
 | sauces | string | The sauces are ketchup, BBQ sauce, mayo or chimichurri. There is no limit to the amount of condiments you can order. The default value is ketchup. If you don’t want any condiments, the value is null and no more sauce will be offered. | No|
 |sauces_quantity | int | There is no additional charge or limit to the amount or types of sauces. The default value is 1. | No|
 | drink | string | You can order a can of soda for an additional $5. The choices are: Coke, Diet Coke, Sprite, or Diet Sprite.| No |
-|drink_quantity | int | The default value is null. | No |
+|drink_quantity | int | The amount of sodas you can order are 1 to 4 cans. The default value is null. | No |
 
 ### Request Example (cURL)
 
