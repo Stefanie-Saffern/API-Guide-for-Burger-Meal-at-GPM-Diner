@@ -5,7 +5,7 @@ The General Putnam Motel Diner API allows you to order a burger meal special for
 
 
 ## Burger Meal Workflow
-This flowchart diagram is a flowchart that shows how Burger Meal order is processed on the GPMD API. Each part of the diagram visualizes possible choices of the burger meal and its following steps based on its preceeding choice. 
+This flowchart diagram shows how Burger Meal order is processed on the GPMD API. Each part of the diagram visualizes possible choices of the burger meal and its following steps based on its preceeding choice. 
 
 ![Flowchart Diagram](FlowchartF.PNG)
 
