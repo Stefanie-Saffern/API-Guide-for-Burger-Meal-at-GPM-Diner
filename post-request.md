@@ -74,20 +74,4 @@ http://URL/
 
 [Error Codes](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/error%20codes) &mdash; reference of additional error codes.
 
-### Response Schema 
-| Argument | Data Type | Description |
-| --- | --- | --- | 
-|main_type | string | The burger meal that you ordered— all-beef patty or veggie patty. |
-| timestamp | date | The time that you ordered the burger meal. main string. The type of hamburger that you ordered— all-beef patty or veggie burger.|
-|hamburger_size| omt | The size of the hamgurger patty that you ordered&mdash; all-beef patty or veggie burger. |
-|topping_quantity| int | The number of toppings that you ordered. The types of toppings you ordered.|
-|sides_quantity| int  | The number of sides that you ordered. The types of sides that you ordered. side string The sides that you ordered. side quantity number. The number of sides you ordered.|
-|sauces_quantity| int | The number of sauces that you ordered. The types of sauces that you ordered. sauce string. The sauces that you ordered. sauce quantity order number. The number of sauces you ordered.|
-|drink_quantity| int | The number of drinks that you ordered. The type of drink that you ordered. drink string. The drink that you ordered. drink_quantity order number. The number of drinks you ordered.|
-|order| string| The name of the customer who placed the order.|
-|order_id| uuid| The unique identifier for the customer who placed the order. |
-| cook| string | The name of the cook assigned to cook the meal. |
-|cook_id| uuid| The unique identifier for the cook assignmed to cook your meal. |
-|price_base| string | The base price of the meal (does not include additions).|
-|price_add| string| The price of additions made to the meal. |price_total| string| The total cost of the meal (price_base + price_add). |
 
