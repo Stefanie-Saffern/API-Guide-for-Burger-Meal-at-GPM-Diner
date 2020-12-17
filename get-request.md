@@ -1,5 +1,5 @@
 # Endpoint GET/Lunch/burgerMeal  
-The GET gives the customer to access the burger meal section of the online menu for the General Putnam Motel Diner.    
+The GET/lunch gives the customer to access the burger meal section of the online menu for the General Putnam Motel Diner.    
 
 | Method | Syntax |
 | --- | --- |
