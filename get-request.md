@@ -1,9 +1,17 @@
 # Endpoint GET/Lunch/burgerMeal  
-The GET gives the customer to access the burger meal section of the online menu for the General Putnam Motel Diner.    
+The GET/lunch gives the customer to access the burger meal section of the online menu for the General Putnam Motel Diner.    
 
 | Method | Syntax |
 | --- | --- |
 | GET | base_url://lunch/bugerMeal |
+
+
+
+The GET/mealType retrives the meal that is currently available, the burgerMeal.  
+|Attribute | Data Type | Description |
+| --- | ---| --- |
+| mealType | string | The meal that you order |
+| timestamp | date | the time that you order the request |
 
 ## GET Request Burgermeal
 

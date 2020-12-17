@@ -26,7 +26,7 @@ The POST sends the customer's order, takeout status, and time it is placed to th
 | sauces | string | The sauces are ketchup, BBQ sauce, mayo or chimichurri. There is no limit to the amount of condiments you can order. The default value is ketchup. If you don’t want any condiments, the value is null and no more sauce will be offered. | No|
 |sauces_quantity | int | There is no additional charge or limit to the amount or types of sauces. The default value is 1. | No|
 | drink | string | You can order a can of soda for an additional $5. The choices are: Coke, Diet Coke, Sprite, or Diet Sprite.| No |
-|drink_quantity | int | The default value is null. | No |
+|drink_quantity | int | The amount of sodas you can order are 1 to 4 cans. The default value is null. | No |
 
 ### Request Example (cURL)
 
@@ -72,22 +72,6 @@ http://URL/
 
  ![](https://lh6.googleusercontent.com/lg4CSP8V6ZZB08WIpkIXw73NXNWMLoUWJEZG_imtidHrrr49KSYCLKzfvnSSHaRsPdMR-pSMRznkHirUoYFMxoS6-NsQvhYfXdNYqfSQAz4JVeiGqHw9m3DyOw0-MDod8XTw5Mk)
 
-[Error Codes](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/error%20codes) &mdash; reference of additional error codes.
+[Error Codes](error-codes.md) &mdash; reference of additional error codes.
 
-### Response Schema 
-| Argument | Data Type | Description |
-| --- | --- | --- | 
-|main_type | string | The burger meal that you ordered— all-beef patty or veggie patty. |
-| timestamp | date | The time that you ordered the burger meal. main string. The type of hamburger that you ordered— all-beef patty or veggie burger.|
-|hamburger_size| omt | The size of the hamgurger patty that you ordered&mdash; all-beef patty or veggie burger. |
-|topping_quantity| int | The number of toppings that you ordered. The types of toppings you ordered.|
-|sides_quantity| int  | The number of sides that you ordered. The types of sides that you ordered. side string The sides that you ordered. side quantity number. The number of sides you ordered.|
-|sauces_quantity| int | The number of sauces that you ordered. The types of sauces that you ordered. sauce string. The sauces that you ordered. sauce quantity order number. The number of sauces you ordered.|
-|drink_quantity| int | The number of drinks that you ordered. The type of drink that you ordered. drink string. The drink that you ordered. drink_quantity order number. The number of drinks you ordered.|
-|order| string| The name of the customer who placed the order.|
-|order_id| uuid| The unique identifier for the customer who placed the order. |
-| cook| string | The name of the cook assigned to cook the meal. |
-|cook_id| uuid| The unique identifier for the cook assignmed to cook your meal. |
-|price_base| string | The base price of the meal (does not include additions).|
-|price_add| string| The price of additions made to the meal. |price_total| string| The total cost of the meal (price_base + price_add). |
 
