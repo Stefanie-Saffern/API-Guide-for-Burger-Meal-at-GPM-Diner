@@ -5,6 +5,14 @@ The GET/lunch gives the customer to access the burger meal section of the online
 | --- | --- |
 | GET | base_url://lunch/bugerMeal |
 
+
+
+The GET/mealType retrives the meal that is currently available, the burgerMeal.  
+|Attribute | Data Type | Description |
+| --- | ---| --- |
+| mealType | string | The meal that you order |
+| timestamp | date | the time that you order the request |
+
 ## GET Request Burgermeal
 
 Retrieves the meal that is available at the current time.  
