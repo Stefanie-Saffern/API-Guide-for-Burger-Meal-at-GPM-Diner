@@ -72,6 +72,6 @@ http://URL/
 
  ![](https://lh6.googleusercontent.com/lg4CSP8V6ZZB08WIpkIXw73NXNWMLoUWJEZG_imtidHrrr49KSYCLKzfvnSSHaRsPdMR-pSMRznkHirUoYFMxoS6-NsQvhYfXdNYqfSQAz4JVeiGqHw9m3DyOw0-MDod8XTw5Mk)
 
-[Error Codes](https://github.com/Stefanie-Saffern/API-Guide-for-Burger-Meal-at-GPM-Diner/blob/main/error%20codes) &mdash; reference of additional error codes.
+[Error Codes](error-codes.md) &mdash; reference of additional error codes.
 
 
