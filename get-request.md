@@ -27,7 +27,7 @@ There are no arguments.
 | Attribute | Data Type | Description |
 | --- | --- | --- |
 | meal_type | string | The burger meal includes a choice of 2 toppings, 2 sides, and unlimited sauces. Customers can select from 4 types of toppings, sides, and sauces. Additional toppings, sides, and drinks can be added for an extra charge. |
-| timestamp | date | 2020-01-21T07:44:45-05:00 The time stamp refers to the year, month, day, and time the order is placed.|
+| timestamp | date | 2020-01-21T07:44:45-05:00 The timestamp indicates the year, month, day, and time when the order is placed.|
 | order_number | int | A number is assigned to the burger meal order, for example 123. |
 | table_number | string | Table number 99 is to identify takeout orders only. |
 | customer_id | uuid | Each uuid will be made up of a unique combination of characters and numerals to identify the customer. This”shdi64826” is an example of the uuid. |
