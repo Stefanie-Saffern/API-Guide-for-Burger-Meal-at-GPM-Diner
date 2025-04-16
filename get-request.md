@@ -30,7 +30,7 @@ There are no arguments.
 | timestamp | date | 2020-01-21T07:44:45-05:00 The timestamp indicates the year, month, day, and time when the order is placed.|
 | order_number | int | Each burger meal order is assigned a unique number, such as 123. |
 | table_number | string | Table number 99 is designated for takeout orders only. |
-| customer_id | uuid | Each uuid will be made up of a unique combination of characters and numerals to identify the customer. This”shdi64826” is an example of the uuid. |
+| customer_id | uuid | Each UUID consists of a unique combination of characters and numerals to identify the customer. This”shdi64826” is an example of the uuid. |
 
 ### Response Example 
 ```JSON
