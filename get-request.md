@@ -11,7 +11,7 @@ The GET/mealType retrives the meal that is currently available, the burgerMeal.
 |Attribute | Data Type | Description |
 | --- | ---| --- |
 | mealType | string | The meal you order |
-| timestamp | date | the time you place the order |
+| timestamp | date | The time you place the order |
 
 ## GET Request Burgermeal
 
